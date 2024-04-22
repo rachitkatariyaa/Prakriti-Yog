@@ -9,145 +9,143 @@
   <link rel="stylesheet" href="media.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   <link rel="icon" href="assests/favicon.jpg" />
+
 </head>
 
 <body>
-  <header>
+  <div class="main">
+    <nav>
+      <ul class="sidebar">
+        <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960"
+              width="26">
+              <path
+                d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+            </svg></a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Forum</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
 
-    <div class="bg-img">
-      <div class="container">
-        <div class="logo-container">
-          Yog Prakriti
-          <!-- <img src="assests/logo-img.png" class="logo-img"> -->
-        </div>
-
-        <div class="nav-links-container">
-          <a id="nav-links">Home</a>
-          <a id="nav-links">Search<a>
-          <a id="nav-links">Service</a>
-          <a id="nav-links">About</a>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!-- <div class="heading-container">
-    <div class="heading-text">
-      Productivity is a movement, and be a part of this community <br />
-      and build connections<br />
-    </div>
-  </div> -->
-
+      <ul>
+        <li><a href="#">Prakriti Yog</a></li>
+        <li class="hideOnMobile"><a href="#">Blog</a></li>
+        <li class="hideOnMobile"><a href="#">Tutor</a></li>
+        <li class="hideOnMobile"><a href="#">About</a></li>
+        <li class="hideOnMobile"><a href="#">Login</a></li>
+        <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+              viewBox="0 96 960 960" width="26">
+              <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+            </svg></a></li>
+      </ul>
+    </nav>
+  </div>
 
   <div class="slider-menu">
-
-
     <div class="wrapper">
       <i id="left" class="fa-solid fas fa-angle-left"></i>
 
       <ul class="carousel">
 
         <li class="card">
-            <div class="img">
-                <img src="assests/media/01.jpg"
-                draggable="false"> </div>
-            <h2>
-                Asana of yoga
-            </h2>
-            <span>swipe for more</span>
+          <div class="img">
+            <img src="assests/media/01.jpg" draggable="false">
+          </div>
+          <h2>
+            Asana of yoga
+          </h2>
+          <span>swipe for more</span>
         </li>
 
-          <li class="card">
-              <div class="img">
-                  <img src="assests/media/1.jpg"
-                  draggable="false"> </div>
-              <h2>
-                  Asana of yoga
-              </h2>
-              <span>swipe for more</span>
-          </li>
-          <li class="card">
-              <div class="img">
-                  <img src="assests/media/2.jpg"
-                  draggable="false"> </div>
-              <h2>
-                Asana of yoga
-              </h2>
-              <span>swipe for more</span>
-          </li>
-          <li class="card">
-              <div class="img">
-                  <img src="assests/media/3.jpg"
-                  draggable="false"> </div>
-              <h2>
-                Asana of yoga
-              </h2>
-              <span>swipe for more</span>
-          </li>
-          <li class="card">
-              <div class="img">
-                  <img src="assests/media/4.jpg"
-                  draggable="false"> </div>
-              <h2>
-                Asana of yoga
-              </h2>
-              <span>swipe for more</span>
-          </li>
-          <li class="card">
-              <div class="img">
-                  <img src="assests/media/5.webp"
-                  draggable="false"> </div>
-              <h2>
-                Asana of yoga
-              </h2>
-              <span>swipe for more</span>
-          </li>
-          <li class="card">
-              <div class="img">
-                  <img src="assests/media/6.jpg"
-                  draggable="false"> </div>
-              <h2>
-                Asana of yoga
-              </h2>
-              <span>swipe for more</span>
-          </li>
-          <li class="card">
-              <div class="img">
-                  <img src="assests/media/7.webp"
-                  draggable="false"> </div>
-              <h2>
-                Asana of yoga
-              </h2>
-              <span>swipe for more</span>
-          </li>
-          <li class="card">
-              <div class="img">
-                  <img src="assests/media/8.webp"
-                  draggable="false"> </div>
-              <h2>
-                Asana of yoga
-              </h2>
-              <span>swipe for more</span>
-          </li>
-          <li class="card">
-              <div class="img">
-                  <img src="assests/media/9.jpg"
-                  draggable="false"> </div>
-              <h2>
-                Asana of yoga
-              </h2>
-              <span>swipe for more</span>
-          </li>
+        <li class="card">
+          <div class="img">
+            <img src="assests/media/1.jpg" draggable="false">
+          </div>
+          <h2>
+            Asana of yoga
+          </h2>
+          <span>swipe for more</span>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="assests/media/2.jpg" draggable="false">
+          </div>
+          <h2>
+            Asana of yoga
+          </h2>
+          <span>swipe for more</span>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="assests/media/3.jpg" draggable="false">
+          </div>
+          <h2>
+            Asana of yoga
+          </h2>
+          <span>swipe for more</span>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="assests/media/4.jpg" draggable="false">
+          </div>
+          <h2>
+            Asana of yoga
+          </h2>
+          <span>swipe for more</span>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="assests/media/5.webp" draggable="false">
+          </div>
+          <h2>
+            Asana of yoga
+          </h2>
+          <span>swipe for more</span>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="assests/media/6.jpg" draggable="false">
+          </div>
+          <h2>
+            Asana of yoga
+          </h2>
+          <span>swipe for more</span>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="assests/media/7.webp" draggable="false">
+          </div>
+          <h2>
+            Asana of yoga
+          </h2>
+          <span>swipe for more</span>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="assests/media/8.webp" draggable="false">
+          </div>
+          <h2>
+            Asana of yoga
+          </h2>
+          <span>swipe for more</span>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="assests/media/9.jpg" draggable="false">
+          </div>
+          <h2>
+            Asana of yoga
+          </h2>
+          <span>swipe for more</span>
+        </li>
       </ul>
       <i id="right" class="fa-solid fas fa-angle-right"></i>
-  </div>
-
-  <script src="app.js"></script>
+    </div>
+    <script src="app.js"></script>
   </div>
 
   <script src="app.js"></script>
 </body>
 
 </html>
-
-

@@ -109,7 +109,7 @@ nav li:first-child {
 	justify-content: center;
 	min-height: 75vh;
 	width: 100%;
-	background: rgb(228, 220, 220);
+	background: rgb(14 79 23 / 90%)
 }
 
 .wrapper {
@@ -183,7 +183,8 @@ nav li:first-child {
 	scroll-snap-align: start;
 	height: 340px;
 	list-style: none;
-	background: #fff;
+	background: #2f2e2bed;
+	;
 	border-radius: 8px;
 	display: flex;
 	cursor: pointer;
@@ -211,13 +212,14 @@ nav li:first-child {
 }
 
 .card h2 {
+	color: white;
 	font-weight: 500;
 	font-size: 1.56rem;
 	margin: 30px 0 5px;
 }
 
 .card span {
-	color: #6a6d78;
+	color: white;
 	font-size: 1.31rem;
 
 }
